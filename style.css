@@ -1,0 +1,225 @@
+/* General Styles */
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+    color: #333;
+}
+
+/* Container */
+.container {
+    width: 80%;
+    margin: 0 auto;
+    overflow: hidden;
+}
+
+/* Navigation */
+#navigation {
+    background: #333;
+    color: #fff;
+    padding: 10px 0;
+}
+
+#navigation .container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+#navigation h1.brand {
+    font-size: 24px;
+}
+
+#navigation ul {
+    list-style: none;
+}
+
+#navigation ul li {
+    display: inline;
+    margin-left: 20px;
+}
+
+#navigation ul li a {
+    color: #fff;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+#navigation ul li a:hover {
+    text-decoration: underline;
+}
+
+/* Hero Section */
+.hero-section {
+    background: url('./architecture-bird-s-eye-view-buildings-2096698\ \(1\).jpg') no-repeat center center/cover;
+    background-color: rgba(0, 0, 0, 0.5);
+    color: #fff;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+
+}
+
+.hero-section h2 {
+    font-size: 48px;
+    margin-bottom: 20px;
+}
+
+.hero-section p {
+    font-size: 20px;
+    margin-bottom: 20px;
+}
+
+.hero-section .cta-button {
+    background: rgb(17, 133, 36);
+    color: #fff;
+    padding: 10px 20px;
+    text-decoration: none;
+    border-radius: 5px;
+}
+
+.hero-section .cta-button:hover {
+    background: #555;
+}
+
+/* Services Section */
+.services-section {
+    padding: 40px 0;
+    background: #93CB4E;
+}
+
+.services-section h2 {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.service-grid {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.service-item {
+    flex: 1;
+    margin: 10px;
+    padding: 20px;
+    background: #f9f9f9;
+    text-align: center;
+    border-radius: 5px;
+}
+
+.service-item i {
+    color: #333;
+    margin-bottom: 10px;
+}
+
+.service-item h3 {
+    margin-bottom: 10px;
+}
+
+.service-item p {
+    color: #666;
+}
+
+/* About Section */
+.about-section {
+    padding: 40px 0;
+    background: #1f1d1d;
+}
+
+.about-section h2 {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.about-section p {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.about-section .team-list {
+    list-style: none;
+    padding: 0;
+    text-align: center;
+}
+
+.about-section .team-list li {
+    margin: 5px 0;
+}
+
+
+/* Contact Section */
+.contact-section {
+    padding: 40px 0;
+    background: #333333;
+}
+
+.contact-section h2 {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.contact-section p {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.contact-section form {
+    width: 60%;
+    margin: 0 auto;
+    background: #fff;
+    padding: 20px;
+    border-radius: 5px;
+}
+
+.contact-section .form-group {
+    margin-bottom: 20px;
+}
+
+.contact-section .form-group label {
+    display: block;
+    margin-bottom: 5px;
+}
+
+.contact-section .form-group input,
+.contact-section .form-group textarea {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+.contact-section .submit-button {
+    background: #333;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    width: 100%;
+}
+
+.contact-section .submit-button:hover {
+    background: #555;
+}
+#about{
+    color: #f4f4f4;
+}
+
+/* Footer */
+.footer {
+    background: #333;
+    color: #fff;
+    padding: 10px 0;
+    text-align: center;
+}
+#contact_us_head{
+    color: #f4f4f4;
+}
+#contact_us_para{
+    color: #f4f4f4;
+}
